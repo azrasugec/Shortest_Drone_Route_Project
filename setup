@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 setup(
     name='shortestpath_2220674062',
     version='0.1.0',
-    author='Azra Sügeç',
+    author='Azra Sugeç',
     author_email='azra.sugec@example.com',
     description='Drone için uçuşa yasak bölgeleri dikkate alarak en kısa rotayı hesaplayan Python paketi.',
     long_description=long_description,

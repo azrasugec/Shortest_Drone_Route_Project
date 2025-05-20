@@ -81,7 +81,7 @@ python setup.py sdist bdist_wheel
 
 This command generates a `dist/` folder with the `.tar.gz` and `.whl` files.
 
-![Step 5 - setup.py definition](img/ss5.png)
+![Step 5 - setup.py definition](img/ssyeni5.png)
 
 --------
 
