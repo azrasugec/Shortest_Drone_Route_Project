@@ -1,0 +1,29 @@
+from setuptools import setup, find_packages
+
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
+
+setup(
+    name='shortestpath_2220674062',
+    version='0.1.0',
+    author='Azra Sügeç',
+    author_email='azra.sugec@example.com',
+    description='Drone için uçuşa yasak bölgeleri dikkate alarak en kısa rotayı hesaplayan Python paketi.',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url='https://github.com/azrasugec/Shortest_Drone_Route_Project',
+    packages=find_packages(),
+    install_requires=[
+        'osmnx',
+        'geopandas',
+        'matplotlib',
+        'networkx',
+        'shapely',
+        'scikit-learn'
+    ],
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.7',
+)
